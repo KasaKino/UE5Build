@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5build\\maincharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\development\\ue5build\\definitions.ue5build.h",
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\source\\ue5build\\maincharacter.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\charactermovementreplication.generated.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\rootmotionsource.generated.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\character.generated.h",
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5build\\maincharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

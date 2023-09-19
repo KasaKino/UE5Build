@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\UE5Project\\WorkSpace\\UnrealProjects\\UE5Build\\Source\\UE5Build\\UE5Build.Build.cs",
+		"E:\\UE5Project\\WorkSpace\\UnrealProjects\\UE5Build\\Source\\UE5Build.Target.cs",
+		"E:\\UE5Project\\WorkSpace\\UnrealProjects\\UE5Build\\Source\\UE5BuildEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DEC9B5FF-D78E-3E6D-B8E8-B81EF75F2901}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>DatasmithSDK</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat DatasmithSDK Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat DatasmithSDK Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat DatasmithSDK Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\DatasmithSDK\DatasmithSDK-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat DatasmithSDK Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat DatasmithSDK Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat DatasmithSDK Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\DatasmithSDK\DatasmithSDK-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat DatasmithSDK Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat DatasmithSDK Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat DatasmithSDK Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\DatasmithSDK\DatasmithSDK.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat DatasmithSDK Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat DatasmithSDK Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat DatasmithSDK Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\DatasmithSDK\DatasmithSDK-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat DatasmithSDK Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat DatasmithSDK Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat DatasmithSDK Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\DatasmithSDK\DatasmithSDK-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);E:\UnrealEngine-5.0.3-release\Engine\Source;E:\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Private;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\DatasmithCore;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Datasmith;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Datasmith\DatasmithCore\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\Core;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\TraceLog\Public;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Core\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\TraceLog;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\CoreUObject;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\CoreUObject\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\DirectLink;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Datasmith\DirectLink\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\Messaging;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Messaging\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\MeshDescription;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\MeshDescription\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\RawMesh;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\RawMesh\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\StaticMeshDescription;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\StaticMeshDescription\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\DatasmithExporter;E:\UnrealEngine-5.0.3-release\Engine\Source\Developer\Datasmith;E:\UnrealEngine-5.0.3-release\Engine\Source\Developer\Datasmith\DatasmithExporter\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\UdpMessaging;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Messaging\UdpMessaging\Source;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\Networking;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Networking\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\Sockets;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Sockets\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\NetCommon;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Net;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Net\Common\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Inc\DatasmithSDK;E:\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;D:\Windows Kits\10\include\10.0.22621.0\ucrt;D:\Windows Kits\10\include\10.0.22621.0\shared;D:\Windows Kits\10\include\10.0.22621.0\um;D:\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\DatasmithSDK.Target.cs"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\DatasmithSDK.Build.cs"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\1.Welcome.md"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\2.SetUpYourProject.md"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\3.ExportToDatasmith.md"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\Third Party Software Notices.pdf"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\DatasmithSDK_config.txt"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\examples.dox"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\footer.txt"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\header.txt"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\run_doxygen.bat"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\styles.css"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\output\Datasmith SDK Documentation.html"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Documentation\build\output\Datasmith SDK Documentation.zip"/>
+    <ClCompile Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Private\DatasmithSDK.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\UnrealEngine-5.0.3-release\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\DatasmithSDK\Development\DatasmithSDK\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSDK\Private\DatasmithSDK.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

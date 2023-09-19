@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\source\\ue5build\\ue5buildgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\development\\ue5build\\definitions.ue5build.h",
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\source\\ue5build\\ue5buildgamemodebase.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5build\\ue5buildgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

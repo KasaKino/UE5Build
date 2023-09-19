@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{61C5787C-D5D3-3C3E-B47F-84C7DEDB6F2D}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealRecoverySvc</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat UnrealRecoverySvc Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat UnrealRecoverySvc Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat UnrealRecoverySvc Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\UnrealRecoverySvc-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat UnrealRecoverySvc Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat UnrealRecoverySvc Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat UnrealRecoverySvc Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\UnrealRecoverySvc-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat UnrealRecoverySvc Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat UnrealRecoverySvc Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat UnrealRecoverySvc Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\UnrealRecoverySvc.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat UnrealRecoverySvc Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat UnrealRecoverySvc Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat UnrealRecoverySvc Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\UnrealRecoverySvc-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Build.bat UnrealRecoverySvc Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Rebuild.bat UnrealRecoverySvc Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>E:\UnrealEngine-5.0.3-release\Engine\Build\BatchFiles\Clean.bat UnrealRecoverySvc Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>E:\UnrealEngine-5.0.3-release\Engine\Binaries\Win64\UnrealRecoverySvc-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);E:\UnrealEngine-5.0.3-release\Engine\Source;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Launch\Private;E:\UnrealEngine-5.0.3-release\Engine\Source\Programs\UnrealRecoverySvc\Private;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Core;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\TraceLog\Public;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Core\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\TraceLog;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\CoreUObject;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\CoreUObject\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Concert;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertMain\Source;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertMain\Source\Concert\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\ConcertTransport;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertMain\Source\ConcertTransport\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\MessagingCommon;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\MessagingCommon\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Messaging;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Messaging\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Serialization;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Serialization\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Json;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Json\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Cbor;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Cbor\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\ConcertSyncCore;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Source;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncCore\Source\ConcertSyncCore\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\ApplicationCore;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\ApplicationCore\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\RHI;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\RHI\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Projects;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Projects\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\Launch;E:\UnrealEngine-5.0.3-release\Engine\Source\Runtime\Launch\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\ProfilerService;E:\UnrealEngine-5.0.3-release\Engine\Source\Developer;E:\UnrealEngine-5.0.3-release\Engine\Source\Developer\ProfilerService\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\ConcertSyncServer;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Source;E:\UnrealEngine-5.0.3-release\Engine\Plugins\Developer\Concert\ConcertSync\ConcertSyncServer\Source\ConcertSyncServer\Public;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Inc\UnrealRecoverySvc;E:\UnrealEngine-5.0.3-release\Engine\Source\Programs;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;D:\Windows Kits\10\include\10.0.22621.0\ucrt;D:\Windows Kits\10\include\10.0.22621.0\shared;D:\Windows Kits\10\include\10.0.22621.0\um;D:\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs"/>
+    <ClCompile Include="..\..\..\..\..\..\UnrealEngine-5.0.3-release\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\UnrealEngine-5.0.3-release\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\UnrealRecoverySvc\Definitions.UnrealRecoverySvc.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"E:\UnrealEngine-5.0.3-release\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

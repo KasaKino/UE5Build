@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\source\\ue5build\\ue5build.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealengine-5.0.3-release\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\intermediate\\build\\win64\\unrealeditor\\development\\ue5build\\definitions.ue5build.h",
+            "e:\\ue5project\\workspace\\unrealprojects\\ue5build\\source\\ue5build\\ue5build.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
